@@ -1,0 +1,8 @@
+@charset "utf-8";
+
+body {
+    background-image: url("../images/talk-bck.jpg");
+}
+fieldset {
+  width:472px;
+}

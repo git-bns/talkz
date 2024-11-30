@@ -1,0 +1,42 @@
+<html>
+<head>
+<title>Welcome to Talkz</title>
+<link rel="shortcut icon" href="images/icons/talkz.jpg" />
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="scripts/valscript.js"></script>
+<script type="text/javascript" src="scripts/jquery-1.9.1.min.js"></script>
+</head>
+<body onload="JavaScript:loadAllInitDropdowns();">
+<h2 align="center"> Welcome to Talkz</h2>
+<br /><hr />
+<table style="width: 100%">
+  <tr><td width="50%" align="center" >
+	<h3><button type="button" onclick="alert('Loading.....')">Load</button> TV Series</h3> 
+		<select id="tv-series-select-box"></select>
+		<select id="series-season-select-box">
+			<option value="Friends Season 1">Friends Season 1</option>
+		</select> <br />
+  </td><td width="50%" align="center">
+		<h3><button id="movie-load-button" type="button" onclick="JavaScript:loadMovie();" disabled="disabled">Load</button> Movies</h3> 
+		<select id="movie-select-box" onchange="JavaScript:toggleLoadingButton();"></select><br />
+  </td></tr>
+  <tr><td width="50%" align="center">
+	 <fieldset>
+	  <legend>Season 01 : Episod 01</legend>
+		<video width="470" height="350" controls >
+			<source src="/resources/Friends Complete Seasons 1-10 Uncut DVDRip - 480p/Friends Season 1/Friends - [1x01] - The One where Monica gets a Roommate.mkv" type="video/mp4">
+			</source>
+		</video>
+	 </fieldset>
+  </td><td width="50%" align="center">
+	 <fieldset>
+	  <legend id="movie-legend">The Movie Trailer</legend>
+		<video id="movie-video" width="470" height="350" controls >
+		<source id="movie-video-source" src="/resources/Videos/Feast.2014.FRENCH.BDRip.x264-AYMO.mkv" type="video/mp4"></source>
+		</video>
+	 </fieldset>
+  </td></tr>
+</table>
+<br /><hr />
+</body>
+</html>
