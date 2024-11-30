@@ -1,9 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
-    <wb-module deploy-name="Talkz">
+        
+    <wb-module deploy-name="talkz">
+                
         <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+                
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+                
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/resources"/>
-        <property name="context-root" value="Talkz"/>
-        <property name="java-output-path" value="/Talkz/build/classes"/>
+                
+        <property name="java-output-path" value="/talkz/build/classes"/>
+        <property name="context-root" value="talkz"/>
+            
     </wb-module>
+    
 </project-modules>
